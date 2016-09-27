@@ -15,6 +15,7 @@
 		689B99451D986EE200E89B7A /* Emoji_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B99441D986EE200E89B7A /* Emoji_DictionaryTests.swift */; };
 		689B99501D986EE200E89B7A /* Emoji_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B994F1D986EE200E89B7A /* Emoji_DictionaryUITests.swift */; };
 		689B995E1D987A4900E89B7A /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B995D1D987A4900E89B7A /* DefinitionViewController.swift */; };
+		689B99601D988E8700E89B7A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B995F1D988E8700E89B7A /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		689B994F1D986EE200E89B7A /* Emoji_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_DictionaryUITests.swift; sourceTree = "<group>"; };
 		689B99511D986EE200E89B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		689B995D1D987A4900E89B7A /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		689B995F1D988E8700E89B7A /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				689B992F1D986EE200E89B7A /* AppDelegate.swift */,
 				689B99311D986EE200E89B7A /* ViewController.swift */,
 				689B995D1D987A4900E89B7A /* DefinitionViewController.swift */,
+				689B995F1D988E8700E89B7A /* Emoji.swift */,
 				689B99331D986EE200E89B7A /* Main.storyboard */,
 				689B99361D986EE200E89B7A /* Assets.xcassets */,
 				689B99381D986EE200E89B7A /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				689B99321D986EE200E89B7A /* ViewController.swift in Sources */,
 				689B995E1D987A4900E89B7A /* DefinitionViewController.swift in Sources */,
+				689B99601D988E8700E89B7A /* Emoji.swift in Sources */,
 				689B99301D986EE200E89B7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

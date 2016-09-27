@@ -11,79 +11,22 @@ import UIKit
 class DefinitionViewController: UIViewController {
 
     @IBOutlet weak var emojiLabel: UILabel!
-    
     @IBOutlet weak var definitionLabel: UILabel!
+    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var dateAddedLabel: UILabel!
     
-    var emoji = "NO EMOJI"
+    var emoji = Emoji()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print(emoji)
         
-        emojiLabel.text = emoji
-        
-        if emoji == "😀" {
-            
-        definitionLabel.text = "This is a smiley face"
-    
-        }
-        
-        if emoji == "😉" {
-            
-            definitionLabel.text = "This is a wink face"
-            
-        }
-        
-        if emoji == "😏" {
-            
-            definitionLabel.text = "This is a smug face"
-            
-        }
-        
-        if emoji == "🐸" {
-            
-            definitionLabel.text = "This is a frog"
-            
-        }
-        
-        if emoji == "🐳" {
-            
-            definitionLabel.text = "This is a whale"
-            
-        }
-        
-        if emoji == "🐡" {
-            
-            definitionLabel.text = "This is a blowfish"
-            
-        }
-        
-        if emoji == "🐣" {
-            
-            definitionLabel.text = "This is a chick hatching"
-            
-        }
-        
-        if emoji == "🦁" {
-            
-            definitionLabel.text = "This is a lion"
-            
-        }
-        
-        if emoji == "🐹" {
-            
-            definitionLabel.text = "This is a hamster"
-            
-        }
-        
-        if emoji == "👺" {
-            
-            definitionLabel.text = "This is a bitch"
-            
-        }
-        
-        
+        emojiLabel.text = emoji.stringEmoji
+        definitionLabel.text = emoji.definition
+        dateAddedLabel.text = "Year Added: \(emoji.yearAdded)"
+        categoryLabel.text = "Category: \(emoji.category)"
+
     }
 
     override func didReceiveMemoryWarning() {
